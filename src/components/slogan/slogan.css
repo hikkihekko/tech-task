@@ -1,0 +1,35 @@
+.slogan-bg{
+    width: 100%;
+    height: 60vh;
+    background-image: url("https://img3.goodfon.ru/wallpaper/nbig/2/53/stroitelstvo-arhitektura.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: aliceblue;
+}
+.slogan-bg::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slogan-container{
+    position: absolute;
+}
+
+.slogan-header{
+    font-size: 40px;
+    
+}
+.slogan-paragraph{
+    font-size: 30px;
+    font-weight: bold;
+}

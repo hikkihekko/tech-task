@@ -1,0 +1,147 @@
+.map{
+    background-image: url("./img/map-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    vertical-align: middle;
+
+    height: 70vh;
+}
+.button-AboutProcess{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    
+    position: relative;
+
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
+.button-AboutProcess-position1{
+    top: 70%;
+    left: 54%;
+}
+.button-AboutProcess-position2{
+    top: 46%;
+    left: 40%;
+}
+.button-AboutProcess-position3{
+    top: 33%;
+    left: 36%;
+}
+.button-AboutProcess-position4{
+    top: 20%;
+    left: 40%;
+}
+.button-AboutProcess-position5{
+    top: 15%;
+    left: 44%;
+}
+.button-AboutProcess-position6{
+    top: 1%;
+    left: 47%;
+}
+.button-AboutProcess-position7{
+    top: -19%;
+    left: 46%;
+}
+
+
+.button-AboutProcess-map{
+    height: 100%;
+    width: 100%;
+}
+
+.click{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.AboutProcess-block{
+    max-width: 450px;
+    background-color: rgba(37, 37, 37, 0.74);
+
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    
+    padding: 20px 10px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: jump-in 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+} 
+@keyframes jump-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    50% {
+      opacity: 0.8;
+      transform: translateY(5px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.AboutProcess-block1{
+    top: 360vh;
+    left: 30vw;
+    z-index: 2;
+}
+.AboutProcess-block2{
+    top: 345vh;
+    left: 15vw;
+    z-index: 3;
+}
+.AboutProcess-block3{
+    top: 340vh;
+    left: 12vw;
+    z-index: 4;
+}
+.AboutProcess-block4{
+    top: 335vh;
+    left: 16vw;
+    z-index: 5;
+}
+.AboutProcess-block5{
+    top: 335vh;
+    left: 20vw;
+    z-index: 6;
+}
+.AboutProcess-block6{
+    top: 330vh;
+    left: 23vw;
+    z-index: 6;
+}
+.AboutProcess-block7{
+    top: 320vh;
+    left: 22vw;
+    z-index: 6;
+}
+
+.blockHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.AboutProcess-buttom-close{
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+
+    display: inline-block;
+    transform: rotate(45deg);
+    transform-origin: center;
+    transition: transform 0.5s ease-in-out;
+}
+.AboutProcess-buttom-close:hover{
+    transform: rotate(360deg);
+}
+.process-container{
+    text-align: center;
+    margin-top: 30px;
+}

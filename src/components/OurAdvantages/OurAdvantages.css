@@ -1,0 +1,48 @@
+.about-us-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    font-size: 20px;
+}
+
+.scrollable-block{
+font-size: 24px;
+max-width: 50%;
+margin-top: 40px;
+background-color: #f9f9f9;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+padding: 20px;
+opacity: 0;
+transform: translateY(50px); 
+transition: all 0.5s ease-out;
+}
+.scrollable-paragraph{
+margin-bottom: 30px;
+}
+
+.scrollable-block-active {
+opacity: 1;
+transform: translateY(0);
+}
+.our-advantages{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our-advantages-container{
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    margin-top: 20px;
+
+    width: 420px;
+    padding: 30px 30px;
+
+	border-bottom: 1px solid rgba(179, 184, 236, 0.5);
+}

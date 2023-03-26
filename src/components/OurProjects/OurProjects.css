@@ -1,0 +1,56 @@
+.main-conainer{
+    display: flex;
+    align-items: center;
+}
+.carousel-items{
+display: flex;
+justify-content: center;
+height: fit-content;
+
+padding: 20px;
+background-color: rgba(0, 0, 0, 0.774);
+}
+
+.carousel-item{
+    max-width: 23vw;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.carousel-item:nth-child(n+3){
+    padding-bottom: 30px;
+}
+
+.window-carousel{
+    width: 100%;
+
+    overflow: hidden;
+}
+
+.all-pages-container{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    transition: translateX;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+
+}
+
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    min-width: 2.5em;
+    min-height: 2.5em;
+    color: aliceblue;
+}
+
+.arrow-left{
+    left: 12vw;
+    z-index: 1;
+}
+.arrow-right{
+    right: 12vw;;
+    z-index: 1;
+}

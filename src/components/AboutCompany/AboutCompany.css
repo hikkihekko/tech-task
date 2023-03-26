@@ -1,0 +1,25 @@
+.about-company-background{
+    background-image: url("https://gamerwall.pro/uploads/posts/2022-09/1662590219_18-gamerwall-pro-p-arkhitektura-na-rabochii-stol-pinterest-22.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: fit-content;
+}
+
+.about-company-conteyner{
+    height: 100%;
+    width: 100%;
+
+    background-color: rgba(27, 27, 27, 0.8);
+
+    color: aliceblue;
+    font-size: 25px;
+    margin-top: 50px;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.about-company-text{
+    white-space: pre-line;
+}
